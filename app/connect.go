@@ -20,10 +20,10 @@ import (
 	"github.com/la5nta/pat/internal/prehook"
 
 	"github.com/harenber/ptc-go/v2/pactor"
+	"github.com/hb9tob/Pat-Vara/vara"
 	"github.com/la5nta/wl2k-go/transport"
 	"github.com/la5nta/wl2k-go/transport/ardop"
 	"github.com/la5nta/wl2k-go/transport/ax25/agwpe"
-	"github.com/n8jja/Pat-Vara/vara"
 
 	// Register stateless dialers
 	_ "github.com/la5nta/wl2k-go/transport/ax25"

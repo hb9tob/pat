@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hb9tob/Pat-Vara/vara"
 	"github.com/la5nta/pat/cfg"
 	"github.com/la5nta/wl2k-go/rigcontrol/hamlib"
 	"github.com/la5nta/wl2k-go/transport/ardop"
 	"github.com/la5nta/wl2k-go/transport/ax25"
 	"github.com/la5nta/wl2k-go/transport/ax25/agwpe"
 	"github.com/la5nta/wl2k-go/transport/telnet"
-	"github.com/n8jja/Pat-Vara/vara"
 )
 
 func (a *App) Unlisten(param string) {

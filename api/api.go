@@ -24,6 +24,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/hb9tob/Pat-Vara/vara"
+
 	"github.com/la5nta/pat/app"
 	"github.com/la5nta/pat/cfg"
 	"github.com/la5nta/pat/internal/buildinfo"
@@ -35,7 +37,6 @@ import (
 	"github.com/hashicorp/go-version"
 	"github.com/la5nta/wl2k-go/catalog"
 	"github.com/la5nta/wl2k-go/transport/ardop"
-	"github.com/n8jja/Pat-Vara/vara"
 	"github.com/pd0mz/go-maidenhead"
 )
 

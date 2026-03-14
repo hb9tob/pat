@@ -20,6 +20,7 @@ import (
 	"time"
 
 	"github.com/harenber/ptc-go/v2/pactor"
+	"github.com/hb9tob/Pat-Vara/vara"
 	"github.com/la5nta/pat/api/types"
 	"github.com/la5nta/pat/cfg"
 	"github.com/la5nta/pat/internal/buildinfo"
@@ -34,7 +35,6 @@ import (
 	"github.com/la5nta/wl2k-go/transport/ardop"
 	"github.com/la5nta/wl2k-go/transport/ax25"
 	"github.com/la5nta/wl2k-go/transport/ax25/agwpe"
-	"github.com/n8jja/Pat-Vara/vara"
 )
 
 const (

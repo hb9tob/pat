@@ -17,7 +17,7 @@ require (
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/la5nta/wl2k-go v1.0.1
 	github.com/microcosm-cc/bluemonday v1.0.27
-	github.com/n8jja/Pat-Vara v1.2.0
+	github.com/hb9tob/Pat-Vara v1.3.55
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/pd0mz/go-maidenhead v1.0.0
 	github.com/peterh/liner v1.2.2
@@ -45,3 +45,5 @@ require (
 	golang.org/x/tools v0.29.0 // indirect
 	golang.org/x/vuln v1.1.4 // indirect
 )
+
+replace github.com/hb9tob/Pat-Vara => ../Pat-Vara
